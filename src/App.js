@@ -1,8 +1,8 @@
-
+import Mainpage from './pages/Mainpage';
 
 function App() {
   return (
-    <>Hello</>
+    <Mainpage></Mainpage>
   );
 }
 
