@@ -1,0 +1,14 @@
+.image {
+    height:800px;
+    width:100px;
+}
+
+.macpxtext {
+    color:white;
+}
+
+.flexitem {
+    display:flex;
+    flex-direction: column;
+    color:white;
+}
