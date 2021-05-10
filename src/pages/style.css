@@ -8,7 +8,17 @@
 }
 
 .flexitem {
+    /* margin: ;
+    width: 50; */
     display:flex;
     flex-direction: column;
     color:white;
 }
+
+.macpxtext {
+    align-items: center;
+}
+
+/* .myPix {
+    height:800px;
+} */
