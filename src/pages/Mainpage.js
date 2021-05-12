@@ -4,11 +4,10 @@ import { Parallax } from 'react-parallax';
 import { Container, Row, Col } from 'reactstrap';
 import Typography from "@material-ui/core/Typography";
 import './style.css'
-import Projects from '../components/Projects';
 import mac from '../assets/images/IMG_1531.jpeg';
 import coffee from '../assets/images/IMG_1535.jpeg';
 import gr from '../assets/images/gr2.jpeg';
-
+import { NavLink } from 'react-router-dom';
 
 
 
@@ -18,9 +17,25 @@ const Mainpage = () => (
     <div>
     <Parallax bgImage={mac} alt = 'mac pic' strength={200}>
         <div className="flexitem">
-            <i class="fas fa-home"></i>
+        <NavLink 
+                className = "nav-link"
+                activeClassName = "active"
+                isActive = { () => window.location.pathname === "/"}
+                to = '/'
+            >
+            <i class="fas fa-home fa-2x"></i>
+            </NavLink>
+            
+            <NavLink 
+                className = "nav-link"
+                activeClassName = "active"
+                isActive = { () => window.location.pathname === "/album"}
+                to = '/album'
+            >
             <i class="fas fa-th"></i>
-            <i class="far fa-user"></i>
+            </NavLink>
+            
+            <a href = "#contact" ><i class="far fa-user"></i> </a> 
             <i class="far fa-envelope"></i>
         </div>
         <div className="image">
@@ -64,7 +79,7 @@ const Mainpage = () => (
 
     </Parallax>
     <Textbox>
-        <Projects />
+        {/* <Projects /> */}
     </Textbox>
 
     <Parallax bgImage={gr} alt = 'GR pic' strength={200}>
@@ -74,7 +89,9 @@ const Mainpage = () => (
 
     </Parallax>
     <Textbox>
+        <div id="contact">
         about me component
+        </div>
         <img className="myPix" src="../assets/images/hd.jpeg"></img>
     </Textbox>
     </div>
