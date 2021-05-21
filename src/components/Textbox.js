@@ -8,7 +8,8 @@ const Styleddiv = styled.div `
     background-color: #394D6B;
     color: white;
     font-size: 30px;
-    padding-top: 30px
+    padding-top: 30px;
+    text-align: center
 
 `
 

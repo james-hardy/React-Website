@@ -1,24 +1,119 @@
 .image {
-    height:800px;
-    width:100px;
+  height: 100vh;
+  width: 100vw;
 }
 
+.mainimagetex {
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
 .macpxtext {
-    color:white;
+  color: white;
 }
 
 .flexitem {
-    /* margin: ;
+  /* margin: ;
     width: 50; */
-    display:flex;
-    flex-direction: column;
-    color:white;
+  display: flex;
+  flex-direction: column;
+  color: white;
 }
 
 .macpxtext {
-    align-items: center;
+  align-items: center;
 }
 
-/* .myPix {
-    height:800px;
-} */
+i {
+  margin: 10px;
+  color: black;
+}
+
+.mainimagetex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  font-size: 20px;
+  padding: 0px;
+  width: 330px;
+  text-align: center;
+  height: 150px;
+}
+
+.maindiv {
+  margin-left: 35%;
+  margin-right: 35%;
+  display: block;
+}
+
+.icon-click {
+  width: 50px;
+}
+
+.topIntro {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.intro {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.title {
+  text-align: center;
+  margin-right: 10px;
+}
+
+.myPix {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.px {
+  margin-top: 50px;
+  display: block;
+  margin: 0 auto;
+  height: 60vh;
+  width: auto;
+  margin: 0 0 0 -20%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  margin: auto;
+  /* width: 50%; */
+  border: 3px solid orange;
+  padding: 10px;
+}
+
+.accordian {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  margin-left: 5%;
+  margin-top:50px;
+}
+
+.firstimage {
+  height: 100vh;
+}
+
+.gr {
+  height: 100vh;
+}
+
+.gr2 {
+  height: 100vh;
+}
